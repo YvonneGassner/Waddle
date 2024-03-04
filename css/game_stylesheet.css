@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 100px;
+    text-align: center;
+}
+
+#duckling_counter {
+    font-size: 50px;
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+
+#background {
+    position: absolute;
+    height: 720;
+    width: 1280;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
